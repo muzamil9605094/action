@@ -26,7 +26,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-buildx-
       - 
-        uses: docker/login-action@v1 
+        uses: docker/muzamil9605094
         with:
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
